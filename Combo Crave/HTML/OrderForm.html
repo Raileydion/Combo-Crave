@@ -1,0 +1,274 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Combo Crave</title>
+    <link rel="icon" href="../IMAGES/COMBO CRAVE (2).png" type="image/png">
+</head>
+<body id="homepage">
+    <link rel="stylesheet" type="text/css" href="../CSS/OrderForm.css">
+    <!--CABILDO, RAILEY DION G.-->
+    <!--04-24-2004-->
+
+    <div class="homepage">
+        <nav id="logo">
+            <a href="../HTML/OrderForm.html"><img id="imglogo" src="../IMAGES/COMBO CRAVE (2).png" alt="Combo Crave Logo"></a>
+        </nav>
+
+        <div id="wrapper">
+            <div id="combocrave">
+                <h1 style="font-family: cool; color: #d1272d; margin-bottom: 0px;">Combo Crave: <br> Your Crave, Our Combo!</h1>
+                <p style="color: gray; font-size: 20px;">Offers a tantalizing fusion of flavors and options, <br> tailored to satisfy every craving.</p>
+                <a id="button1" href="#orderform">Order now</a>
+            </div>
+
+            <div id="burger">
+                <img id="burgerphoto" src="../IMAGES/burger-10956.png" alt="This is a burger photo.">
+            </div>
+        </div>
+    </div>
+
+    <div class="orderform" id="orderform">
+        <div id="ordercontainer" center="1">
+            <div id="table2">
+                <form method="get" action="../HTML/OrderConfirmed.html">
+                <h1 style="font-family: cool; color: #d1272d;">Your Order</h1>
+                    <table>
+                        <table style="margin-bottom: 20px; border-bottom: 1px solid #d1272d;" >
+                            <div id="burger-header">
+                                <img id="image1" src="../IMAGES/burger-svgrepo-com.png" alt="">
+                                <h2 style="display: inline; font-family: cool; color: #d1272d;">Burgers</h2>
+                                <img id="image2" src="../IMAGES/burger-svgrepo-com.png" alt="">
+                            </div>
+                            <div>
+                            <tr>
+                            <td>Burger Patty:</td>
+                                <td>
+                                    <input type="radio" id="sp" name="burger" checked>
+                                    <label for="sp">Single Patty</label> 
+                                    <br>
+                                    <input type="radio" id="dp" name="burger">
+                                    <label for="dp">Double Patty</label> 
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Add Ons:</td>
+                                <td>
+                                    <input type="checkbox" id="cheese1" name="burger">
+                                    <label for="cheese1">Cheese</label> 
+                                    <br>
+                                    <input type="checkbox" id="coleslaw" name="burger">
+                                    <label for="coleslaw">Coleslaw</label> 
+                                    <br>
+                                    <input type="checkbox" id="tomato" name="burger">
+                                    <label for="tomato">Tomato</label>
+                                    <br>
+                                    <input type="checkbox" id="onions" name="burger">
+                                    <label for="onions">Onions</label>
+                                    <br>
+                                    <input type="checkbox" id="cucumber" name="burger">
+                                    <label for="cucumber">Cucumber</label>
+                                    <br>
+                                    <input type="checkbox" id="bacon" name="burger">
+                                    <label for="bacon">Bacon</label>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="choiceofbun">Choice of Bun:</label></td>
+                                <td>
+                                    <select name="choiceofbun" id="choiceofbun" size="1">
+                                        <option value="whitebun" selected>White Bun</option>
+                                        <option value="wheatbun">Wheat Bu</option>
+                                        <option value="honeyoat">Honey Oat</option>
+                                        <option value="sugarfree">Sugar Free</option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="quantity">Quantity:</label></td>
+                                <td><input type="number" id="quantity" value="1" style="width: 100px;"></td>
+                            </tr>
+                        </table>
+
+                        <table style="margin-bottom: 20px; border-bottom: 1px solid #d1272d;">
+                            <div id="pasta-header">
+                                <img id="image1" src="../IMAGES/pasta-svgrepo-com.png" alt="">
+                                <h2 style="display: inline; margin-top: 20px; font-family: cool; color: #d1272d;">Pasta</h2>
+                                <img id="image2" src="../IMAGES/pasta-svgrepo-com.png" alt="">
+                            </div>
+                            <tr>
+                                <td><label for="sauce">Sauces:</label></td>
+                                
+                                
+                                
+                                <td>
+                                    <select name="sauce" id="sauce" size="1">
+                                        <option value="carbonara" selected>Carbonara</option>
+                                        <option value="pesto">Pesto</option>
+                                        <option value="spaghetti">Spaghetti</option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="quantity">Quantity Per Box:</label></td>
+                                <td><input type="number" id="quantity" value="1" style="width: 100px;"></td>
+                            </tr>
+                        </table>
+
+                        <table style="margin-bottom: 10px; border-bottom: 1px solid #d1272d;">
+                            <div id="fries-header">
+                                <img id="image1" src="../IMAGES/french-fries-svgrepo-com (1).png" alt="">
+                                <h2 style="display: inline; font-family: cool; color: #d1272d;">Fries</h2>
+                                <img id="image2" src="../IMAGES/french-fries-svgrepo-com (1).png" alt="">
+                            </div>
+                            <tr>
+                                <td><label for="size">Fries Size:</label></td>
+                                <td>
+                                    <input type="radio" id="small" name="fries">
+                                    <label for="small">Small</label> 
+                                    <br>
+                                    <input type="radio" id="medium" name="fries">
+                                    <label for="medium">Medium</label> 
+                                    <br>
+                                    <input type="radio" id="large" name="fries">
+                                    <label for="large">Large</label>
+                                </td>
+                            </tr>
+                            
+                            
+                            <tr>
+                                <td><label for="flavor">Flavor:</label></td>
+                                <td>
+                                    <select name="flavor" id="flavor">
+                                        <option value="cheese2" selected>Cheese</option>
+                                        <option value="sourcream">Sour Cream</option>
+                                        <option value="bbq">BBQ</option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="quantity">Quantity:</label></td>
+                                <td><input type="number" id="quantity" value="1" style="width: 100px;"></td>
+                            </tr>
+                        </table>
+
+                        <table>
+                            <div id="drinks-header">
+                                <img id="image1" src="../IMAGES/drink-svgrepo-com.png" alt="">
+                                <h2 style="display: inline; font-family: cool; color: #d1272d;">Drinks</h2>
+                                <img id="image2" src="../IMAGES/drink-svgrepo-com.png" alt="">
+                            </div>
+                            <tr>
+                                <td><label for="drinks">Choose Drinks:</label></td>
+                                <td>
+                                    <input type="radio" id="coke" name="drinks">
+                                    <label for="coke">Coke</label>
+                                    <br>
+                                    <input type="radio" id="sprite" name="drinks">
+                                    <label for="sprite">Sprite</label>
+                                    <br>
+                                    <input type="radio" id="royal" name="drinks">
+                                    <label for="royal">Royal</label>
+                                    <br>
+                                    <input type="radio" id="md" name="drinks">
+                                    <label for="md">Mountain Dew</label>
+
+
+                                    <td><label for="quantity">Quantity:</label></td>
+                                    <td><input type="number" id="quantity"  value="1" style="width: 100px;"></td>
+                                </td>
+                            </tr>
+                        </table>
+                    </table>
+            </div>
+
+
+            <div  id="table1">
+                <div id="table1content">
+                    <h1 style=" font-family: cool; color: #d1272d;"margin-bottom: 50px;">Customer Information</h1>
+                    
+                        <table>
+                            <tr>
+                                <td><label for="name">Full Name:</label></td>
+                                <td><input type="text" id="name" placeholder="Enter your Full Name"></td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="address">Complete Address:</label></td>
+                                <td><input type="text" id="address" placeholder="Enter your Address"></td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="contact">Contact Number:</label></td>
+                                <td><input type="tel" id="contact" placeholder="09XX-XXXX-XXX" required></td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="sched">Date and Time of Delivery:</label></td>
+                                <td><input type="datetime-local" id="sched"></td>
+                            </tr>
+                        
+                            <tr>
+                                <td><label for="place">How to get to the place:</label></td>
+                                <td><textarea name="comments" id="place" cols="30" rows="5" style="resize:none;" placeholder="Enter Directions"></textarea></td>
+                            </tr>
+                        </table>
+                </div>
+            </div>
+
+            <div id="table3">
+                <table>
+                    <h2 style="font-family: cool; color: #d1272d;">Delivery and Payment</h2>
+                    
+                    <tr>
+                        <td><label for="proof">Upload Proof of Payment here:</label></td>
+                        <td><input type="file" name="proof" id="proof" accept="image/* multiple"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="delivery">Delivery or Pick Up:</label></td>
+                        <td>
+                            <input type="radio" id="pickup" name="delivery">
+                            <label for="pickup">Pick Up</label>
+                            <br>
+                            <input type="radio" id="delivery" name="delivery">
+                            <label for="delivery">Delivery</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="table4">
+                <table>
+                    <h2 style="font-family: cool; color: #d1272d;">Customer's Feedback:</h2>
+                    
+                    <tr>
+                        <td><label for="rate">Rate our Delivery Service:</label></td>
+                        <td><input type="range" id="rate" min="0" max="10"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><label for="comment">Comments and Suggestion:</label></td>
+                        <td><textarea name="comment" id="comment" cols="30" rows="5" style="resize:none;" placeholder="Comments and Suggestion"></textarea></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="table5">
+                <table>
+                    <tr>
+                        <td><input id="button2" type="submit" value="Submit Order"></td>
+                        <td><input id="button3" type="reset" value="Clear Order"></td>
+                    </tr>
+                </table>
+            </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

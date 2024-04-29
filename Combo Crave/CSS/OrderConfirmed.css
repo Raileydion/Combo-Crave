@@ -1,0 +1,39 @@
+@font-face {
+    src: url(../FONT/coolvetica\ rg.otf);
+    font-family: cool;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d1272d;
+    font-size: 17px;
+    margin: 0;
+}
+
+#bg {
+    color: white;
+    background-color: #d1272d;;
+    height: 350px;
+    padding-top: 20px;
+    text-align: center;
+    font-family: cool;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#customer {
+    color: #d1272d;;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#imglogo {
+    width: 150px;
+    height: auto;
+    margin-top: 50px;
+}
